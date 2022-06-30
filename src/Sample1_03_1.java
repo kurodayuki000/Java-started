@@ -7,13 +7,13 @@ class Sample1_03_1 {
 		
 		System.out.println("HelloWorld!!");
 
-		int teika = 1000;					//定価の金額
+		int listPrice = 1000;					//定価の金額
 
-		double zeiritsu = 1.08;				//消費税
+		double tax = 1.08;				//消費税
 
-		double siharai = teika * zeiritsu;	//支払額を計算
+		double payment = listPrice * tax;	//支払額を計算
 
-		System.out.println(siharai);		//支払額を画面に表示
+		System.out.println(payment);		//支払額を画面に表示
 		
 	}
 }
