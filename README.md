@@ -129,3 +129,11 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 | >=         | x >= y   | xの値がy以上であれあtrue, そうでなければfalse  |
 | <          | x < y    | xの値がyより小さければtrue, そうでなければfalse|
 | <=         | x <= y   | xの値がy以下であれあtrue, そうでなければfalse  |
+
+ ## 論理演算子
+| 演算子     | 記述例   | 意味                                                 |
+| :---:      |   :---   |      :---                                            |
+| &&         | x && y   | どちらもtrueであればtrue、そうでなければfalse        |
+| ||         | x || y   | どちらか一方がtrueであればtrue、そうでなければfalse  |
+| ^          | x ^ y    | xとyの値が違っていればtrue, そうでなければfalse      |
+| !          | !x       | xがtrueならfalse、falseならtrue                      |
